@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/progressbar.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head"></div>
+        <div class="content">
+            <div class="container" id="main">
+                <span class="text" id="balance"><h1 id="balanceVar">Balance: 0</h1></span>
+                <span class="text"><h1 id="passiveInc">Passive income: 0 </h1></span>
+                <div class="progressBarcontainer">
+                <span class="hint" id="helpPr">To next level:</span>
+                <div id="progressContainer"></div>
+                </div>  
+            </div>
+        </div>
+        <div class="interact">
+            <div class="container">
+                <button id="click_btn">Click to work</button>
+            </div>
+            <div class="card">
+                <div class="itemCard">
+                    <h1>Маленький магазин</h1> 
+                    <p>Покупка маленького регионального магазина дает возможность получать пассивный доход в размере <b>2$/sec.</b></p>
+                    <p id="smallShopERR" class="error">Уже куплено!</p>
+                    <p id="smallShoplbl" class="price">Стоимость: </p>
+                    <button id="smallShopBtn">Get</button>
+                    <button id="smallShopubgBtn">Ubgrade</button>
+                </div>
+                <div class="itemCard">
+                    <h1>Супермаркет</h1> 
+                    <p>Покупка супермаркета дает возможность получать пассивный доход в размере <b>5$/sec.</b></p>
+                    <p id="midleShopERR" class="error">Уже куплено!</p>
+                    <p id="midleShoplbl" class="price">Стоимость: </p>
+                    <button id="midleShopBtn">Get</button>
+                    <button id="midleShopubgBtn">Ubgrade</button>
+                </div>
+                <div class="itemCard">
+                    <h1>Гипермаркет</h1> 
+                    <p>Покупка гипермаркета дает возможность получать пассивный доход в размере <b>10$/sec.</b></p>
+                    <p id="bigShopERR" class="error">Уже куплено!</p>
+                    <p id="bigShoplbl" class="price">Стоимость: </p>
+                    <button id="bigShopBtn">Get</button>
+                    <button id="bigShopubgBtn">Ubgrade</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">Made by <b onclick="window.location.href='https://t.me/tmeffe'" style="cursor: pointer;">Ferdelll</b></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
